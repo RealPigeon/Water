@@ -12,28 +12,30 @@
   <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
 </head>
 <body>
-<div class="wrapper">
+
+<div class="site-center">
+    <div class="wrapper">
 <header>
 <div class="header-menu-wrp">
-	<div class="wrp wrp-1">
+  <div class="wrp wrp-1">
     <a href="#"><div class="logo"></div></a>
-		<div class="header-menu">
-			<ul>
-				<li><a href="#about">О продукте</a></li>
-				<li><a href="#source">Источник</a></li>
-				<li><a href="#production">Продукция</a></li>
-				<li><a href="#contacts">Контакты</a></li>
-			</ul>
-		</div>	
-		<div class="contacts">
-			<div class="contacts__item">
-				<a>8 800 444 1908</a>
-			</div>
-			<div class="contacts__item">
-			  <a>info@eightpeaks.ru</a>
-			</div>
-			<a href="" target="_blank"><button class="header__button">Купить на ozon.ru</button></a>
-		</div>
+    <div class="header-menu">
+      <ul>
+        <li><a href="#about">О продукте</a></li>
+        <li><a href="#source">Источник</a></li>
+        <li><a href="#production">Продукция</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+    </div>  
+    <div class="contacts">
+      <div class="contacts__item">
+        <a>8 800 444 1908</a>
+      </div>
+      <div class="contacts__item">
+        <a>info@eightpeaks.ru</a>
+      </div>
+      <a href="" target="_blank"><button class="header__button">Купить на ozon.ru</button></a>
+    </div>
   </div>
 </div>
 <div class="header-mobile">
@@ -718,10 +720,10 @@ $(function() {
                   $('body').removeClass('body_pointer');
               } else {
                   $('body').addClass('body_pointer');
-              }					
+              }         
           });  
           return false;
-      });			
+      });     
       
       $(document).on('click', function(e){
           if (!$(e.target).closest('.menu').length){
@@ -738,10 +740,10 @@ $(function() {
                   $('body').removeClass('body_pointer');
               } else {
                   $('body').addClass('body_pointer');
-              }					
+              }         
           });  
           return false;
-      });			
+      });     
       $(document).on('click', function(e){
           if (!$(e.target).closest('.menu').length){
               $('body').removeClass('body_pointer');
@@ -755,5 +757,6 @@ $(function() {
   if (screen.width > 1024) document.write ('<script type="text/javascript" src="script.js" ></sc' + 'ript>');
   }
 </script>
+  </div>
 </body>
 </html>

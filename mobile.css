@@ -22,8 +22,8 @@
     text-transform: uppercase;
     color: #272727;
     width: auto;
-    /* margin-left: 39px;
-    margin-right: 39px; */
+    /*margin-left: 39px;
+    margin-right: 39px;*/
   }
 }
 @media screen and (max-width: 1024px) {
@@ -135,7 +135,7 @@
     color: #272727;
     /* margin-left: 39px;
     margin-right: 39px; */
-    margin: auto 20px;
+    margin: auto 35px;
   }
   .sct-1 .subtitle {
     font-family: Tinos;

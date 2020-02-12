@@ -28,6 +28,13 @@ section {
   background-image: url(images/bg-1.png);
   background-repeat: no-repeat;
 }
+
+.site-center {
+  display: block;
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+}
 /*--- HEADER OPEN ---*/
 .hedaer-menu {
   display: block;
@@ -48,9 +55,9 @@ section {
 	width: 100% !important;
 	background: transparent;
 	color: #190000;
- 
-  margin-bottom: 20px;
-  display:block;
+  display: block;
+
+  visibility: hidden;
 }
 .header-menu-wrp .header-menu ul {
   margin-top: 37px; /* 88px */
@@ -98,12 +105,16 @@ section {
 .header-menu-wrp .header-menu ul li a.active {
   color: #E30613;
 }
+.header-menu-wrp.original {
+ visibility: hidden;
+}
   .header-menu-wrp.cloned {
     width: 100%;
     position: fixed;
     top: 0;
     margin-top: 0;
     z-index: 9999;
+    display: block;
     /*background: #FFFFFF;
     box-shadow: 0px 7px 20px rgba(169, 169, 169, 0.25);*/
   }

@@ -14,11 +14,12 @@
 		if ($(window).scrollTop() >= ($original.offset().top)){    
 			$cloned.css({
 				'top': 0, 
-				'width': $original.css('width'), 
+				'left': 0, 
+				'width': '100%', 
 				'display': 'block',
-				'left': $original.offset().left+'px',
 				'background': '#FFFFFF',
-				'box-shadow': '0px 7px 20px rgba(169, 169, 169, 0.25)'
+				'box-shadow': '0px 7px 20px rgba(169, 169, 169, 0.25)',
+				'visibility': 'visible'
 			});
 			$original.css('visibility', 'hidden');
 		} else {
