@@ -40,24 +40,24 @@ section {
   display: block;
 }
 .header-menu-wrp .wrp {
-	width: 100%;
+  width: 100%;
   margin: 0 auto;
 }
 .header-menu-wrp .wrp-1 {
-	display: flex;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 .header-menu-wrp {
-	height: 180px; /* 215px */
+  height: 180px; /* 215px */
   margin: auto;
-	width: 100% !important;
-	background: transparent;
-	color: #190000;
+  width: 100% !important;
+  background: transparent;
+  color: #190000;
   display: block;
 
-  visibility: hidden;
+  visibility: visible;
 }
 .header-menu-wrp .header-menu ul {
   margin-top: 37px; /* 88px */
@@ -68,7 +68,7 @@ section {
 @media screen and (min-width: 480px) {
 .header-menu-wrp .contacts {
   margin-top: 30px; /* 59px */
-	padding-right: 80px; /* 110px */
+  padding-right: 80px; /* 110px */
   }
 }
 .header-menu-wrp .contacts .header__button {
@@ -76,8 +76,8 @@ section {
   height: 51px;
   background: #E30613;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-	border-radius: 5px;
-	border: none;
+  border-radius: 5px;
+  border: none;
   font-family: Tinos;
   font-style: normal;
   font-weight: bold;
@@ -89,18 +89,18 @@ section {
   margin: 13px 0 0 0;
 }
 .header-menu-wrp .header-menu ul {
-	list-style-type: none;
+  list-style-type: none;
 }
 .header-menu-wrp .header-menu li a, .contacts a{
-	display: block;
-	font-family: Tinos;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 25px;
-	line-height: 29px;
-	letter-spacing: 0.04em;
-	color: #190000;
-	text-decoration: none;
+  display: block;
+  font-family: Tinos;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  letter-spacing: 0.04em;
+  color: #190000;
+  text-decoration: none;
 } 
 .header-menu-wrp .header-menu ul li a.active {
   color: #E30613;
@@ -109,9 +109,11 @@ section {
  visibility: hidden;
 }
   .header-menu-wrp.cloned {
+    max-width: 100%;
     width: 100%;
     position: fixed;
     top: 0;
+    left: 0;
     margin-top: 0;
     z-index: 9999;
     display: block;
@@ -240,32 +242,32 @@ section {
   margin: 0px 0px;
 }
 #tabs ul {
-	margin-bottom: 84px;
+  margin-bottom: 84px;
 }
 .tabs-nav {
-	overflow: hidden;
-	margin: 0px 0px;
-	padding: 0;
+  overflow: hidden;
+  margin: 0px 0px;
+  padding: 0;
 }
 .tabs-nav li {
-	display: block;
-	float: left;
-	margin-right: 35px; /* 88px */
-	padding: 0;
-	list-style: none;
+  display: block;
+  float: left;
+  margin-right: 35px; /* 88px */
+  padding: 0;
+  list-style: none;
 }
 .tabs-nav a {
-	display: block;
-	text-decoration: none;
-	text-align: center;
-	font-family: Tinos;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 18px;
-	text-align: center;
-	letter-spacing: 0.04em;
-	color: #8E8D8D;	
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-family: Tinos;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #8E8D8D; 
 }
 #tabs .paragraphTitle {
   font-family: Tinos;
@@ -277,55 +279,55 @@ section {
   color: #272727;
 }
 #tabs p {
-	font-family: Tinos;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 30px;
-	letter-spacing: 0.04em;
-	color: #8E8D8D;
-	margin-top: 10px;
-	margin-bottom: 55px;
+  font-family: Tinos;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #8E8D8D;
+  margin-top: 10px;
+  margin-bottom: 55px;
 }
 #tab-3 .tableRow {
-	font-family: Tinos;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 24px;
-	letter-spacing: 0.04em;
-	color: #8E8D8D;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	border-bottom: 1px solid #E7E7E7;
+  font-family: Tinos;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #8E8D8D;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #E7E7E7;
 }
 #tab-3 #first.tableRow {
-	padding-top: 0;
+  padding-top: 0;
 }
 #tab-3 .tableRow:last-child {
-	border-bottom: none;
+  border-bottom: none;
 }
 #tab-3 .paragraphTitle {
-	margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 #tab-3 #second.paragraphTitle {
-	margin-top: 48px;
+  margin-top: 48px;
 }
 #tab-3 .right {
-	float: right;
+  float: right;
 }
 .tabs-nav li:last-child a {
-	display: block;
+  display: block;
 }
 .tabs-nav a.active {
-	font-family: Tinos;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 16px;
-	line-height: 18px;
-	text-align: center;
-	letter-spacing: 0.04em;
-	color: #190000;
+  font-family: Tinos;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #190000;
 }      
 /*--- TABS END ---*/
 /*--- SECTION 2 END ---*/

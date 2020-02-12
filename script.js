@@ -15,7 +15,7 @@
 			$cloned.css({
 				'top': 0, 
 				'left': 0, 
-				'width': '100%', 
+				'width': $original.css('width'), 
 				'display': 'block',
 				'background': '#FFFFFF',
 				'box-shadow': '0px 7px 20px rgba(169, 169, 169, 0.25)',
