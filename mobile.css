@@ -4,6 +4,10 @@
     background-size: auto;
     background-position: top;
   }
+
+  .bottle-ipad {
+    display: none;
+  }
 }
 @media screen and (max-width: 250px) {
   .header-mobile__logo {
@@ -30,6 +34,9 @@
     display: none;
   }
 }
+@media screen and (max-width: 600px) {
+}
+
 @media screen and (max-width: 1024px) {
   * {
     margin: 0;
@@ -82,9 +89,13 @@
     width: 100%;
   }
   .wrapper {
-    background-image: url('images/bg-1-mobile.png');
+    background-image: url('images/bg-1.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-size: 150%;
+    background-position-y: 250px; 
+    z-index: 999;
+
   }
   .header-mobile {
     width: 100%;
@@ -126,6 +137,9 @@
   }
   .sct-1 {
     text-align: center;
+    height: 700px;
+  background: linear-gradient(to bottom, rgba( 255, 0, 0, 0),#fff,rgb(100%, 100%, 100%, 0.2), rgba(255, 0, 0, 0.4), #fff);
+}
   }
   .sct-1 .title {
     padding-top: 38px;
@@ -169,16 +183,18 @@
     border-radius: 5px;
     margin-bottom: 518px;
   }
-  .sct-1 .img-bottle-1 {
-    height: auto;
+  .bottle-ipad {
+    display: none;
   }
-  .sct-1 .img-bottle {
-    min-height: 650px;
-    background-position: top; 
+
+  .bottle-phone {
+    display: block;
+    position: absolute;
+    top: 280px;
+    float: left;
+    left: 0;
+    max-height: 70%;
     width: auto;
-    background-size: 55%;
-    background: url('img/1.png');
-    margin-bottom: 15px;
   }
   .sct-1 .img-bottle-2 img {
     display: none;
