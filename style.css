@@ -592,21 +592,21 @@ section {
     background-color: rgba( 255, 0, 0, 0);
     background-image: url(images/bg-4.jpg);
     border-radius: 0px 0px 40px 0px;
-    background-size: 120%;
+    background-size: 100%;
     margin: 0;
     background-repeat: no-repeat;
 }
 .sct-5 .blockImage.сaucasus {
   background-image: url(images/bg-5.jpg);
   border-radius: 40px 0px 0px 40px;
-  background-size: 120%;
+  background-size: 100%;
   margin: 0;
   background-repeat: no-repeat;
 }
 .sct-5 .blockImage.altai {
   background-image: url(images/bg-6.jpg);
   border-radius: 0px 40px 0px 0px;
-  background-size: 120%;
+  background-size: 100%;
   margin: 0;
   background-repeat: no-repeat;
 }
