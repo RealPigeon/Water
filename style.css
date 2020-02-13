@@ -207,9 +207,9 @@ section {
   background: url('images/img-1-pad.png') no-repeat;
   background-position: top;
   background-size: cover;
-  background-position-y: -100px; 
+  background-position-y: bottom; 
   background-position-x: right; 
-  background-size: 45%;
+  background-size: 52%;
   height: 650px;
 }
 /*--- SECTION 1 END ---*/
@@ -386,6 +386,7 @@ section {
   font-style: normal;
   font-weight: bold;
   font-size: 45px;
+  text-align: left;
   line-height: 55px;
   margin-bottom: 24px;
   letter-spacing: 0.05em;
@@ -401,6 +402,7 @@ section {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
+  text-align: left;
   line-height: 30px;
   letter-spacing: 0.04em;
   color: #FFFFFF;
@@ -519,6 +521,7 @@ section {
 }
 
 .sct-5{
+  display: contents;
   padding-top: 150px;
   margin-top: -150px;
   background: linear-gradient(to top, #fff, #fff, #fff,#fff,#fff,#fff,#fff,#fff,#fff,#fff,#fff,#fff,#fff, #fff,rgba( 255, 0, 0, 0));
