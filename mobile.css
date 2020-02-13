@@ -25,11 +25,16 @@
     /*margin-left: 39px;
     margin-right: 39px;*/
   }
+
+  .contacts {
+    display: none;
+  }
 }
 @media screen and (max-width: 1024px) {
   * {
     margin: 0;
     padding: 0;
+    zoom: 100%;
   }
   body {
     width: 100%;
@@ -135,7 +140,7 @@
     color: #272727;
     /* margin-left: 39px;
     margin-right: 39px; */
-    margin: auto 35px;
+    margin: auto 50px;
   }
   .sct-1 .subtitle {
     font-family: Tinos;
@@ -168,9 +173,12 @@
     height: auto;
   }
   .sct-1 .img-bottle {
-    min-height: 850px;
+    min-height: 650px;
+    background-position: top; 
     width: auto;
+    background-size: 55%;
     background: url('img/1.png');
+    margin-bottom: 15px;
   }
   .sct-1 .img-bottle-2 img {
     display: none;
