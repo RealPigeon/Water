@@ -71,7 +71,7 @@
     display: none;
   }
   .contacts {
-    display: none;
+    display: block;
   }
   .wrapper, body {
     width: 100%;
