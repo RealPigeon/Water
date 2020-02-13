@@ -217,6 +217,40 @@
     letter-spacing: 0.04em;
     color: #8E8D8D;
   }	
+
+  .tabs-nav a > .line{
+  height: 1.5px;
+  background-color: #000;
+  margin: 10px auto 0 auto;
+  width: 0%;
+  }
+
+  .tabs-nav a.active {
+  font-family: Tinos;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #190000;
+}     
+
+@keyframes underlineAnim {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+.tabs-nav a.active > .line {
+  animation: underlineAnim;
+  animation-duration: 300ms;
+  width: 80%;
+}
+
   .tabs-nav a.active {
     font-family: Tinos;
     font-style: normal;
