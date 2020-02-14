@@ -209,7 +209,7 @@ section {
   background-size: cover;
   background-position-y: bottom; 
   background-position-x: right; 
-  background-size: 52%;
+  background-size: 41%;
   height: 650px;
 }
 /*--- SECTION 1 END ---*/
@@ -525,10 +525,10 @@ section {
 }
 
 .sct-5{
-  display: contents;
-  padding-top: 150px;
-  margin-top: -150px;
-  background: linear-gradient(to top, #fff, #fff, #fff,#fff,#fff,#fff,#fff,#fff,#fff,#fff,#fff,#fff,#fff, #fff,rgba( 255, 0, 0, 0));
+  display: block;
+  padding-top: 40%;
+  margin-top: -40%;
+  background: linear-gradient(to top, #fff 82%,rgb(100%, 100%, 100%, 0.8),rgb(100%, 100%, 100%, 0.4),rgba( 255, 0, 0, 0));
 }
 .sct-5 .mainTitle  {
   font-family: Tinos;
